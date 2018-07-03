@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/css.css">
+	<title></title>
+</head>
+<body>
+	<div class="header">
+		<ul>
+			<li>
+			<a href="HowItWorks.html">How it works</a>
+			</li>
+			<li>
+			<a href="Testimonials.html">Testimonials</a>
+			</li>
+	
+			<li>
+			<a href="Support.html">Support</a>
+			</li>
+		</ul>
+	</div>
+	<div class="backround">
+		<img src="img/BACK.jpg">
+	</div>
+	<div class="z">
+		<div class="upload">
+			<form enctype="multipart/form-data" method="post">
+   			<p><input type="file" name="Choose File"></p>
+		</div>
+		<div class="number">
+			<form action="/search/" id="cse-search-box">
+			<input type="text" name="as_q" id="q" autocomplete="off" placeholder="VIN Number">
+			<input type="hidden" name="cx" value="partner-pub-0708135098984815:pmy83axen1s">
+			<input type="hidden" name="cof" value="FORID:9">
+			<input type="hidden" name="ie" value="UTF-8">
+		</form>
+		</div>
+		<div class="license">
+			<form action="/search/" id="cse-search-box">
+			<input type="text" name="as_q" id="q" autocomplete="off" placeholder="License Plate">
+			<input type="hidden" name="cx" value="partner-pub-0708135098984815:pmy83axen1s">
+			<input type="hidden" name="cof" value="FORID:9">
+			<input type="hidden" name="ie" value="UTF-8">
+		</form>
+		</div>
+	</div>
+</body>
+<footer>
+	
+</footer>
+</html>
